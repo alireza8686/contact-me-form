@@ -1,4 +1,13 @@
+@font-face {
+    font-family: Yekan;
+    src: url('fonets/Yekan.eot');
+    src: url('fonets/Yekan.eot?#iefix') format('fonets/Yekan-opentype'), url('fonets/Yekan.woff') format('woff'), url('fonets/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(204, 255, 255);
     text-align: center;
+    font-family: Yekan;
 }
