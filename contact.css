@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(204, 255, 255);
+    /* background-color: #dad7cd; */
     text-align: center;
     font-family: Yekan;
 }
@@ -15,3 +15,15 @@ body {
 #wt {
     display: inline;
 }
+
+#click{
+    background-color : #011627 ;
+    color:#fdfffc;
+    border-radius:15px;
+}
+
+#click:hover{
+    box-shadow: 10px 10px 10px rgb(184, 177, 177);
+    
+}
+
