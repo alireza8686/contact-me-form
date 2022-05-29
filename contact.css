@@ -19,9 +19,14 @@ body {
     background-color : #011627 ;
     color:#fdfffc;
     border-radius:15px;
+    
 }
 
 #click:hover{
     box-shadow: 10px 10px 10px rgb(184, 177, 177);
     
+}
+
+d{
+    color: rgb(85, 147, 64);
 }
