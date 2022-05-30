@@ -16,18 +16,21 @@
                     $btn_background= "588157";
                     $btn_hover = "#283618";
                     $top_circle = "img/11.png";
+                    $site_pic = "img/site-green.png";
                     break;
                 case "blue":
                     $background = "caf0f8";
                     $btn_background= "023e8a";
                     $btn_hover = "#03045e";
                     $top_circle = "img/12.png";
+                    $site_pic = "img/site-blue.png";
                     break;
                 case "red":
                     $background = "fdf0d5";
                     $btn_background= "c1121f";
                     $btn_hover = "#780000";
                     $top_circle = "img/13.png";
+                    $site_pic = "img/site-red.png";
                     break;
                 }
             }
@@ -37,6 +40,7 @@
             $btn_background= "588157";
             $btn_hover = "#283618";
             $top_circle = "img/11.png";
+            $site_pic = "img/site-green.png";
         }
 ?>
 
@@ -62,12 +66,13 @@
 </style>
 
 <body dir="rtl" style="color:black ; background-color:#<?php echo $background; ?>;">
-    <img src=<?php echo $top_circle ?> alt="" style="width:280px; height:90px;">
+    <img src=<?php echo $top_circle ?> alt="" style="width:375px; height:100px;">
     <br>
-    <img src="img/my_pic.png" class="border border-2 border-dark" alt="" style="position: relative;bottom:55px;border-radius: 250px;">
+    <img src="img/my_pic.png" class="border border-2 border-dark" alt=""  style="position: relative;bottom:55px;border-radius: 250px;">
     
     <div style="position: relative;bottom:55px;">
-    <h2 style="">سلام خوش اومدی!</h2>
+    <h3 style="">علیرضا علوی</h3>
+    <h6 style="">برنامه نویس و توسعه دهنده وب</h6>
     <div class="col-9 col-lg-4 mx-auto border border-3 " id="theme" style="padding:12px;">
     <p style="font-size:15px;  ">میتونی تم صفحه رو تغییر بدی!</p>
     <p style="font-size:13px;">اول یکی رو انتخاب کن</p>
@@ -82,13 +87,13 @@
         <input type="submit" value="حالا اینجا کلیک کن!" id="click" style="padding:10px;line-height : 20%;">
     </form>
     </div>
-    
     <br>
+    <a href="https://alialavii.ir/"><img src=<?php echo $site_pic; ?> alt="" style="width:260px;height:85px"></a>
+    <br><br>
     <div id="conect">
     <h5>راه های ارتباطی با من :</h5>
     <br>
     <div class="d-grid gap-3 col-8 col-lg-4 mx-auto">
-        <a href="https://alialavii.ir/" class="btn" type="button" target="_blank" style="color:white;">سایت</a>
         <a href="https://instagram.com/programming._.fun" class="btn" type="button" target="_blank" style="color:white;">اینستاگرام</a>
         <a href="https://twitter.com/alrez81" class="btn" type="button" target="_blank" style="color:white;">توییتر</a>
         <a href="https://www.linkedin.com/in/alireza-alavi-83389822b/" class="btn" type="button" target="_blank" style="color:white;">لینکدین</a>
@@ -100,6 +105,7 @@
         <a href="https://t.me/aliwalv" class="btn" type="button" target="_blank" id="wt" style="color:white;">تلگرام</a>
     </p>
     </div>
+    
     </div>
     <script src="contact.js">
     </script>
