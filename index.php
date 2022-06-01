@@ -63,6 +63,9 @@
     #conect{
         line-height : 50%;
     }
+    #wt{
+        display:inline;
+    }
 </style>
 
 <body dir="rtl" style="color:black ; background-color:#<?php echo $background; ?>;">
@@ -72,7 +75,7 @@
     
     <div style="position: relative;bottom:55px;">
     <h3 style="">علیرضا علوی</h3>
-    <h6 style="">برنامه نویس و توسعه دهنده وب</h6>
+    <h6 style="">برنامه نویس و توسعه دهنده وبسایت</h6>
     <div class="col-9 col-lg-4 mx-auto border border-3 " id="theme" style="padding:12px;">
     <p style="font-size:15px;  ">میتونی تم صفحه رو تغییر بدی!</p>
     <p style="font-size:13px;">اول یکی رو انتخاب کن</p>
@@ -91,19 +94,33 @@
     <a href="https://alialavii.ir/"><img src=<?php echo $site_pic; ?> alt="" style="width:260px;height:85px"></a>
     <br><br>
     <div id="conect">
-    <h5>راه های ارتباطی با من :</h5>
+    
+    <h5>ارتباطات کاری :</h5>
+    <br>
+    <div class="d-grid gap-3 col-8 col-lg-4 mx-auto">
+        <a href="CV/CV.pdf" class="btn" type="button" target="_blank" style="color:white;">رزومه من</a>
+    </div>
+    <br>
+    <a href="https://www.linkedin.com/in/alireza-alavi-83389822b/" class="btn col-4" id="wt" type="button" target="_blank" style="color:white;">لینکدین</a>
+    <a href="https://github.com/alireza8686" class="btn col-4" id="wt" type="button" target="_blank" style="color:white;">گیت هاب</a>
+    <br>
+    <br><br>
+    <h5>شبکه‌های اجتماعی :</h5>
     <br>
     <div class="d-grid gap-3 col-8 col-lg-4 mx-auto">
         <a href="https://instagram.com/programming._.fun" class="btn" type="button" target="_blank" style="color:white;">اینستاگرام</a>
         <a href="https://twitter.com/alrez81" class="btn" type="button" target="_blank" style="color:white;">توییتر</a>
-        <a href="https://www.linkedin.com/in/alireza-alavi-83389822b/" class="btn" type="button" target="_blank" style="color:white;">لینکدین</a>
-        <a href="https://github.com/alireza8686" class="btn" type="button" target="_blank" style="color:white;">گیت هاب</a>
+        
     </div>
     <p class="d-grid gap-3 col-5 col-lg-4 mx-auto">
         <h6>ارتباط سریع:</h6>
-        <a href="https://api.whatsapp.com/send?phone=989117970185" class="btn" type="button" target="_blank" id="wt" style="color:white;">واتساپ</a>
-        <a href="https://t.me/aliwalv" class="btn" type="button" target="_blank" id="wt" style="color:white;">تلگرام</a>
+        <a href="https://wa.me/+989117970185" class="btn col-4" type="button" target="_blank" id="wt" style="color:white;">واتساپ</a>
+        <a href="https://t.me/aliwalv" class="btn col-4" type="button" target="_blank" id="wt" style="color:white;">تلگرام</a>
     </p>
+    <div class="d-grid gap-3 col-8 col-lg-4 mx-auto">
+    <a href="mailto: alavialireza38@gmail.com" class="btn" type="button" target="_blank" id="wt" style="color:white;">جیمیل</a>
+    </div>
+    
     </div>
     
     </div>
